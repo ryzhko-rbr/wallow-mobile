@@ -9,12 +9,12 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "format": "prettier --write app components hooks constants && eslint --fix app components hooks constants",
+    "format": "prettier --write app app src && eslint --fix app app src",
     "prepare": "husky"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "prettier --write app components hooks constants && eslint --fix app components hooks constants && git add -A ."
+      "pre-commit": "prettier --write app app src && eslint --fix app app src && git add -A ."
     }
   },
   "dependencies": {

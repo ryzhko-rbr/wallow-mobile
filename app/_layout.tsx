@@ -4,7 +4,7 @@ import { StatusBar } from 'expo-status-bar';
 
 import 'react-native-reanimated';
 
-import { ThemeProviderWrapper } from '@/components';
+import { ThemeProviderWrapper } from '@/src/components';
 
 export default function RootLayout() {
   const [loaded] = useFonts({

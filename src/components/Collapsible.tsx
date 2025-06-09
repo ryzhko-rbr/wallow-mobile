@@ -1,9 +1,9 @@
 import { PropsWithChildren, useState } from 'react';
 import { StyleSheet, TouchableOpacity, View } from 'react-native';
 
-import { IconSymbol } from '@/components/ui/IconSymbol';
-import { Colors } from '@/constants/Colors';
-import { useTheme } from '@/hooks';
+import { IconSymbol } from '@/src/components/ui/IconSymbol';
+import { Colors } from '@/src/constants/Colors';
+import { useTheme } from '@/src/hooks';
 import { Text } from 'react-native-paper';
 
 export function Collapsible({

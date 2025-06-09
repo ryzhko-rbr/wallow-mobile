@@ -1,4 +1,4 @@
-import { useTheme } from '@/hooks';
+import { useTheme } from '@/src/hooks';
 import type { FC } from 'react';
 import { Button } from 'react-native-paper';
 

@@ -1,8 +1,8 @@
 import { Image } from 'expo-image';
 import { StyleSheet } from 'react-native';
 
-import { ToggleTheme } from '@/components';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
+import { ToggleTheme } from '@/src/components';
+import ParallaxScrollView from '@/src/components/ParallaxScrollView';
 
 export default function HomeScreen() {
   return (

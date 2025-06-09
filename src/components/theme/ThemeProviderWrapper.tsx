@@ -3,8 +3,8 @@ import { useMemo, type FC, type PropsWithChildren } from 'react';
 import { ThemeProvider } from '@react-navigation/native';
 import { PaperProvider } from 'react-native-paper';
 
-import { CombinedDarkTheme, CombinedDefaultTheme } from '@/constants';
-import { useTheme } from '@/hooks';
+import { CombinedDarkTheme, CombinedDefaultTheme } from '@/src/constants';
+import { useTheme } from '@/src/hooks';
 
 type Props = Required<PropsWithChildren>;
 

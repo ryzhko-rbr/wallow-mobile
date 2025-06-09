@@ -1,3 +1,3 @@
-prettier --write app components hooks constants
-eslint --fix app components hooks constants
+prettier --write app src
+eslint --fix app src
 git add -A .
